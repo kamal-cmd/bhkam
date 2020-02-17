@@ -1,0 +1,40 @@
+
+            <form class="mai">
+                <h1 class="offset-lg-5">User Contact Form</h1>
+                <div class="form-group col-md-4">
+                    <label for="inputfirstname">First Name</label>
+                    <input type="string" [(ngModel)]="firstname" name="firstsname" class="form-control" id="inputfirstname" placeholder="">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputlastname">Last Name</label>
+                    <input type="string" [(ngModel)]="lastname" name="lastname" class="form-control" id="inputlastname" placeholder="">
+                </div>
+                <div class="form-group col-lg-4 col-md-4 col-sm-4">
+                    <label for="inputemail">Email Address</label>
+                    <input type="email" [(ngModel)]="email" name="email" class="form-control" id="inputemailaddress" placeholder="">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputphoneno.">Phone no.</label>
+                    <input type="number" [(ngModel)]="phoneno" name="phoneno" class="form-control" id="inputphoneno" placement="">
+                </div>
+                <div class="form-group col-lg-8 col-md-8 col-sm-8">
+                    <label for="inputmessage">Message</label>
+                    <textarea name="message" [(ngModel)]="message" class="form-control" cols="45" rows="6" data-rule="required" data-msg="Please Write Something for Us" placeholder=""></textarea>
+                </div>
+                <div class="offset-lg-6">
+                    <button type="submit" class="btn btn-primary"(click)="addData()">Submit</button>
+                </div>
+                <!-- <input name="first name" [(ngModel)]="firstname" type="text" placeholder="First Name " style="width: 100%; height: 40px; border-radius: 7px; ">
+                <br><br>
+                <input name="last name" [(ngModel)]="lastname" type="text" placeholder="Last Name " style="width: 100%; height: 40px; border-radius: 7px; ">
+                <br><br>
+                <input name="email" [(ngModel)]="email" type="text" placeholder="Email Id " style="width: 100%; height: 40px; border-radius: 7px; ">
+                <br><br>
+                <input name="phoneno" [(ngModel)]="phoneno" type="text" placeholder="Phone No. " style="width: 100%; height: 40px; border-radius: 7px; ">
+                <br><br>
+                <textarea name="message" [(ngModel)]="message" style="width: 100%; height: 100px; border-radius: 7px; resize: none; border: 3% inset lightgray; " placeholder="Message "></textarea>
+                <br><br>
+                <button type="submit" (click)="addData()" class="btn btn-outline-primary" style="width: 100%; height: 40px; border-radius: 7px; ">Submit</button>
+             -->
+            </form>
+                   

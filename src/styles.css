@@ -1,0 +1,26 @@
+    html,body{width: 100%;}
+      section{
+        width: 100%;
+        margin: 0;
+        padding-top: 0;
+      }
+      *{
+        font-family: 'DM Serif Display', serif;
+        
+      }
+      .leasing{
+        text-transform: capitalize;
+      }
+      .our_partners{
+        height: 200px;
+        width: 200px;
+      }
+      .second{
+        width: 99%;
+        transition: width 1s, height 1s, box-shadow 1s;
+        box-shadow: 2px 3px 2px 3px #ccc;
+         border:1px solid #ccc;
+      }
+      .second:hover{
+        width: 100%;
+      }
